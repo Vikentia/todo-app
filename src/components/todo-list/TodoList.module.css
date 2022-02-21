@@ -1,0 +1,39 @@
+.todoList {
+    background-color: #FF73AB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 10px 0;
+    min-height: inherit;
+}
+
+.todoListItem {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 4px;
+    background-color: rgb(243, 247, 250);
+    
+}
+
+.todoList button {
+    justify-content:flex-end;
+    width: 28px;
+}
+
+.wrapperInput {
+    width: 100%;
+}
+
+.todoListInput {
+    width:100%;
+    text-align: left;
+}
+
+.todoListItemTitle {
+    text-decoration: line-through;
+}

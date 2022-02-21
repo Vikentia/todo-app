@@ -1,0 +1,18 @@
+.addTodo {
+    background-color: #FF73AB;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.addTodo button {
+    width: 36px;
+}
+
+.addTodo input {
+    flex:content;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 5px;
+}

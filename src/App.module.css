@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: -webkit-center;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box; 
+}
+
+.app {
+  padding-top: 30px;
+}
+
+.container {
+  width: 40%;
+  min-height: 60vh;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px #A60000;
+  padding: 3px;
+}
+
+button {
+  justify-content:flex-end;
+  width: 28px;
+  align-items: center;
+  background-color: #BF306A;
+}
+
+@media (max-width:767px) {
+  .container{
+    max-width: none;
+    min-width: 320px;
+  }
+}
